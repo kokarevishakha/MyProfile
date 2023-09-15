@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>employee register</title>
+  <link rel="shortcut icon" href="developer.png" type="img/x-icon">
+  <style>
+    td {
+      padding-top: 20px;
+    }
+    .sumbitButton{
+      background-color: white;
+      color: black;
+       border: none;
+        padding: 10px 20px; 
+        cursor: pointer; 
+        border-radius: 20px;
+    }
+
+
+    .Heading:hover {
+      color: cadetblue;
+    }
+
+    button:hover {
+      background-color: red;
+    }
+    input[type="text"]{
+      color: crimson;
+      text-transform: capitalize;
+    }
+    
+  </style>
+</head>
+
+<body style="background-color: aquamarine;">
+  <h2 style="color: brown"><i class="Heading">Employee Registration Form</i></h2>
+  <table>
+    <tbody>
+      <form>
+        <tr>
+          <td><label for="">First Name</label></td>
+          <td>
+            <input type="text" id="first_name" required placeholder="Enter Your First Name" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for=""> Your Last Name </label></td>
+          <td>
+            <input type="text" id="last_name" required placeholder="Enter Your Last Name" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for=""> Mobile</label></td>
+          <td>
+            <input type="number" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for=""> Email Address</label></td>
+          <td>
+            <input type="email" id="email" required placeholder="Enter Your Email Address" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for=""> Password</label></td>
+          <td><input type="password" placeholder="Enter  Password" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Select Gender</label></td>
+          <td>
+            <input type="radio" name="Gender"><label for="">Male</label>
+            <input type="radio" name="Gender"><label for="">Female</label>
+            <input type="radio" name="Gender"><label for="">Other</label>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-top: 25px;"><label for="">Known Tools & Technology :</label></td>
+          <td>
+            <input type="checkbox"> <label for=""> Angular</label>
+            <input type="checkbox"> <label for=""> React</label>
+            <input type="checkbox"> <label for=""> Python</label>
+            <input type="checkbox"> <label for=""> Java</label>
+            <input type="checkbox"> <label for=""> Jenkin</label>
+            <input type="checkbox"> <label for=""> GIT</label>
+            <input type="checkbox"> <label for=""> Database</label>
+          </td>
+        </tr>
+        <tr>
+          <!-- <td style="padding-top: 25px;"> <button type="submit"
+              style="background-color: #ff5733; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 20px;">Submit</button>
+          </td>
+          <td style="padding-top: 25px;"> <button type="reset"
+              style="background-color: #ff5733; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 20px;">Clear</button>
+          </td> -->
+          <td><button class="sumbitButton" type="submit">Submit</button></td>
+          <td><button class="sumbitButton" type="reset">Reset</button></td>
+        </tr>
+
+      </form>
+    </tbody>
+  </table>
+</body>
+
+</html>
+</body>
+
+</html>
