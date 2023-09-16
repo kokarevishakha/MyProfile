@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500;1,700&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <style>
+    .calButton{
+        margin: 15px;
+        color: rgb(0, 7, 7);
+        margin-left: 14px;
+        padding: 10px 20px; 
+        cursor: pointer; 
+        border-radius: 20px;
+        border-color: blue;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Slab', serif;
+    }
+    input{
+        margin-left: -1px;
+        margin-top: 7px;
+        border-color: blue;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Slab', serif;
+    }
+    div{
+        margin: 15px;
+        color: rgb(9, 136, 141);
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        /* padding-left: 80px; */
+    }
+    h1{
+        padding-left: 60px;
+        color: rgb(9, 136, 141);
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Slab', serif;
+    }
+    .calButton:hover {
+      background-color: rgb(62, 147, 150);
+      
+    }
+    </style>
+</head>
+<body>
+   
+        <h1>DISCOUNT CALCULATOR</h1>
+    <div>
+        Enter the Bill amount and discount in Percentage </div>
+         
+        <div>Bill amount
+            <input  type="number" />
+        </div>
+        
+        <div>Discount Percentage  <br>
+       <input  type="number" />
+        </div>
+        <br>
+        <button class="calButton" type="calculate">Calculate</button>
+        <div>
+            Total Discount Amount
+        </div>
+</body>
+</html>
