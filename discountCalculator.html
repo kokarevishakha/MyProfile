@@ -25,6 +25,10 @@
         border-color: blue;
         font-family: 'Poppins', sans-serif;
         font-family: 'Roboto Slab', serif;
+       
+    }
+    input[type="number"] {
+        color: rgb(9, 136, 141);
     }
     div{
         margin: 15px;
@@ -43,25 +47,32 @@
       background-color: rgb(62, 147, 150);
       
     }
+    form {
+        border: 2px solid royalblue; 
+        padding: 20px; 
+        background-color: rgb(213, 243, 244);
+        cursor: pointer; 
+        border-radius: 20px;
+    }
     </style>
 </head>
 <body>
-   
-        <h1>DISCOUNT CALCULATOR</h1>
+   <form>
+    <h1>DISCOUNT CALCULATOR</h1>
     <div>
         Enter the Bill amount and discount in Percentage </div>
          
-        <div>Bill amount
+        <div>Bill amount <br>
             <input  type="number" />
         </div>
         
         <div>Discount Percentage  <br>
        <input  type="number" />
         </div>
-        <br>
         <button class="calButton" type="calculate">Calculate</button>
         <div>
             Total Discount Amount
         </div>
+    </form>
 </body>
 </html>
